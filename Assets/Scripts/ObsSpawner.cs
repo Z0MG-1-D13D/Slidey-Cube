@@ -25,7 +25,7 @@ public class ObsSpawner : MonoBehaviour
         //Spawns the blocks in waves
         if (Time.time >= timeToSpawn)
         {
-            SpawnPowerUp();
+            //SpawnPowerUp();
             SpawnBlocks();
             timeToSpawn = Time.time + timeBetweenWaves;
         }
